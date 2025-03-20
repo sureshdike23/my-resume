@@ -70,29 +70,6 @@ h3 {
     color: #007bff;
 }
 
-/* Present Engagement */
-.exp-card {
-    display: flex;
-    align-items: center;
-    background: #f0f0f0;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px auto;
-    width: 90%;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.exp-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-}
-
-.exp-card i {
-    font-size: 2em;
-    margin-right: 15px;
-    color: #007bff;
-}
-
 /* Contact */
 .contact p {
     font-size: 1.1em;
