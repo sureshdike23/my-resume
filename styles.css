@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa; /* Light background for a professional look */
+    color: #333;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile img:hover {
+    transform: scale(1.05);
+}
+
+.profile .info {
+    text-align: left;
+}
+
+/* Sections */
+h3 {
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+.skills i {
+    color: #007bff;
+}
+
+/* Present Engagement */
+.exp-card {
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 90%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.exp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.exp-card i {
+    font-size: 2em;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+/* Contact */
+.contact p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
